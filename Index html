@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa; /* Light background */
+    color: #333;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff; /* White content background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    color: #1e3a8a; /* Darker blue for title */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  th, td {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #e0f2f7; /* Light blue header */
+    color: #1e3a8a; /* Darker blue text */
+  }
+  td {
+    background-color: #fff; /* White cell background */
+    color: #333;
+  }
+  .math { background-color: #fff9c4; } /* Pastel yellow for Mathematics */
+  .reasoning { background-color: #e3f2fd; } /* Light blue for Logical Reasoning */
+  .computer { background-color: #fff; } /* White for Computer Awareness */
+  .test { background-color: #fce4ec; } /* Light pink for tests */
+  .revision { background-color: #e8f5e9; } /* Light green for revision */
+  .commute { background-color: #ffe0b2; } /* Light orange for commute */
+  .break { background-color: #cfd8dc; } /* Grey for breaks */
+  .goals {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  .goals h2 {
+    color: #1e3a8a;
+    margin-top: 0;
+  }
+  .icon {
+      vertical-align: middle;
+      margin-right: 5px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>NIMCET 2026 Weekly Study Timetable (Library-Based – Dropper)</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>6:00 AM - 9:00 AM</td>
+        <td class="math">📚 Mathematics (Home)</td>
+        <td class="math">📚 Mathematics (Home)</td>
+        <td class="math">📚 Mathematics (Home)</td>
+        <td class="math">📚 Mathematics (Home)</td>
+        <td class="math">📚 Mathematics (Home)</td>
+        <td class="math">📚 Mathematics (Home)</td>
+        <td class="revision">💡 Concept Revision (Home)</td>
+      </tr>
+      <tr>
+        <td>9:00 AM - 10:00 AM</td>
+        <td class="break" colspan="7">☕️ Break / Morning Routine</td>
+      </tr>
+      <tr>
+        <td>10:00 AM - 10:30 AM</td>
+        <td class="commute" colspan="7">🚗 Commute to Library</td>
+      </tr>
+      <tr>
+        <td>10:30 AM - 1:00 PM</td>
+        <td class="reasoning">🧠 Logical Reasoning (Library)</td>
+        <td class="reasoning">🧠 Logical Reasoning (Library)</td>
+        <td class="reasoning">🧠 Logical Reasoning (Library)</td>
+        <td class="reasoning">🧠 Logical Reasoning (Library)</td>
+        <td class="reasoning">🧠 Logical Reasoning (Library)</td>
+        <td class="computer">💻 Computer Awareness (Library)</td>
+        <td class="test">📝 Full-Length Mock (Library)</td>
+      </tr>
+      <tr>
+        <td>1:00 PM - 2:00 PM</td>
+        <td class="break" colspan="7">🥗 Lunch Break</td>
+      </tr>
+      <tr>
+        <td>2:00 PM - 5:00 PM</td>
+        <td class="math">📚 Mathematics (Library)</td>
+        <td class="computer">💻 Computer Awareness (Library)</td>
+        <td class="math">📚 Mathematics (Library)</td>
+        <td class="test">✍️ Topic-wise Test (Library)</td>
+        <td class="math">📚 Mathematics (Library)</td>
+        <td class="test">✍️ Topic-wise Test (Library)</td>
+        <td class="revision">💡 Concept Revision (Library)</td>
+      </tr>
+      <tr>
+        <td>5:00 PM - 5:30 PM</td>
+        <td class="break" colspan="7">☕️ Break</td>
+      </tr>
+      <tr>
+        <td>5:30 PM - 7:30 PM</td>
+        <td class="reasoning">🧠 Logical Reasoning (Library)</td>
+        <td class="reasoning">🧠 Logical Reasoning (Library)</td>
+        <td class="reasoning">🧠 Logical Reasoning (Library)</td>
+        <td class="reasoning">🧠 Logical Reasoning (Library)</td>
+        <td class="reasoning">🧠 Logical Reasoning (Library)</td>
+        <td class="math">📚 Mathematics (Library)</td>
+        <td class="revision">💡 Concept Revision (Library)</td>
+      </tr>
+      <tr>
+        <td>7:30 PM Onwards</td>
+        <td colspan="7">🏡 Dinner / Relaxation / Light Revision (as needed)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="goals">
+    <h2>Weekly Goals/Reminders</h2>
+    <ul>
+      <li>Review mock test analysis and focus on weak areas.</li>
+      <li>Revise formulas and important concepts daily.</li>
+      <li>Practice previous year papers topic-wise.</li>
+      <li>Maintain a healthy diet and sleep schedule.</li>
+      <li>Don't get discouraged by low scores, focus on improvement.</li>
+      <li>Seek guidance if needed (e.g., mentors, coaching).</li>
+      <li><br></li>
+      <li><br></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
